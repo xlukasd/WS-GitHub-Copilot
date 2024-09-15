@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>Exercise_Generation</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="LoginForm_ATs.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="LoginForm_ATs.txt" />
+  </ItemGroup>
+
+</Project>

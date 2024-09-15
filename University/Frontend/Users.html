@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Users</title>
+</head>
+<script>
+    fetch('https://localhost:7127/User/all')
+        .then(response => response.json())
+        .then(data => {
+            data.forEach(user => {
+                const row = document.createElement('tr');
+                const nameCell = document.createElement('td');
+                nameCell.textContent = user.firstName;
+                row.appendChild(nameCell);
+                const emailCell = document.createElement('td');
+                emailCell.textContent = user.lastName;
+                row.appendChild(emailCell);
+                document.querySelector('tbody').appendChild(row);
+            });
+        })
+        .catch(error => console.error(error));
+</script>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+</body>
+</html>

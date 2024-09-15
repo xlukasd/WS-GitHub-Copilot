@@ -1,0 +1,20 @@
+#home-photos {
+	display: flex;
+	margin: 0 auto;
+	padding: 15px;
+	gap: 20px;
+	justify-content: space-between; /* Distributes images evenly with space between them */
+	align-items: center;
+}
+
+#home-photos img {
+	object-fit: cover;
+	border-radius: 10px;
+	transition: transform 0.3s ease, box-shadow 0.3s ease;
+	max-width: calc(33.33% - 13.33px); /* Adjust width to cover the container */
+}
+
+#home-photos img:hover {
+	transform: scale(1.05);
+	box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}

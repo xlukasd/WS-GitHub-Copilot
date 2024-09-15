@@ -1,0 +1,89 @@
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* Basic styles for the navigation bar */
+nav {
+    background-color: #101010; 
+    overflow: hidden;
+    margin: 0 auto; 
+}
+
+.navigationContainer ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 0;
+}
+
+.navigationContainer ul .centered-items {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Add this line for vertical alignment */
+    flex-grow: 1;
+}
+
+.navigationContainer ul .centered-items li {
+    display: inline-block; /* Or use flex if you need more control */
+}
+
+.submenu {
+    display: none;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li #linkToHome {
+    display: block;
+    color: white;
+    text-align: center;    
+    text-decoration: none;
+    font-family: 'Arial', sans-serif; /* Change font */
+    font-size: 32px; 
+    text-transform: uppercase;
+}
+
+nav .centered-items a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px 16px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px; 
+    text-transform: uppercase;
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 600px) {
+    nav ul {
+        display: none;
+    }    
+    nav ul li {
+        display: block;
+        text-align: center;
+    }
+}
+
+.contact-icons, .home-icon {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 16px;
+}
+
+.contact-icons a, .home-icon a {
+    display: inline-block;
+    margin-left: 10px; /* Space between icons */
+    color: white; /* Icon color */
+    text-decoration: none;
+}
+
+.contact-icons a:hover, .home-icon a:hover, nav ul li a:hover {
+    color: #B0B0B0; /* Icon color */
+}
+
+.contact-icons i, .home-icon i {
+    font-size: 50px; /* Adjust the size as needed */
+}

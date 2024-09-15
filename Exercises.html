@@ -1,0 +1,391 @@
+﻿<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>GitHub Copilot WS - Exercises</title>
+    <link rel="stylesheet" href="Exercises1.css">
+</head>
+<body>
+
+<h1>Exercises</h1>
+    
+<div id="allExercises">
+    <div class="category">
+        <h2>Warmup</h2>
+        <div class="exercise">
+            <h3>#warmup_EnumerationGeneration</h3>
+            <p><strong>Class:</strong> EnumerationProvider.cs</p>
+            <p><strong>Task:</strong> Implement the methods so that they return the result according to their name.</p>
+        </div>
+        <div class="exercise">
+            <h3>#warmup_ImplementationGeneration</h3>
+            <p><strong>Class:</strong> FileContentFilter.cs</p>
+            <p><strong>Task:</strong> Create new method in the class, which will filter only those lines from text file, which contain specified keyword. Filtered lines should be written to the specified file.</p>
+        </div>
+        <div class="exercise">
+            <h3>#warmup_PropertiesGeneration</h3>
+            <p><strong>Class:</strong> LogEntry.cs</p>
+            <p><strong>Task:</strong> Try generating a few properties for a class with this 'on-the-fly' completion.</p>
+        </div>
+        <div class="exercise">
+            <h3>#warmup_API_generation</h3>
+            <p><strong>Task:</strong> Generate simple WebAPI in your favourite programming language. It should have just one endpoint: '/quoteOfTheDay', which just returns what is received from 'https://favqs.com/api/qotd'.</p>
+        </div>
+    </div>
+
+    <div class="category">
+        <h2>Context</h2>
+        <div class="exercise">
+            <h3>#context_SearchAlgorithms</h3>
+            <p><strong>File:</strong> Search_Algorithm_1.cs &#38; Sorting_Algorithm_2.cs</p>
+            <p><strong>Task:</strong> Go to the methods in both classes, and start implementing them. Compare the on-the-fly suggestions.</p>
+        </div>
+
+        <div class="exercise">
+            <h3>#context_GivenExample</h3>
+            <p><strong>File:</strong> LogEntry.cs, LogEntryParser.cs</p>
+            <p><strong>Task:</strong> There is the example of log file in 'LogFile.txt'. Generate a model-class and the text parser which parses each line into the model-class.</p>
+        </div>
+
+        <div class="exercise">
+            <h3>#context_OpenedTabs</h3>
+            <p><strong>File:</strong> TaskManager.API.Program.cs</p>
+            <p><strong>Task:</strong> Go at the end of the line '// Register the middleware', and press Enter. Check the suggestion of Copilot. Now open the 'StopWatchTrackingMiddleware.cs' and go back to the 'Program.cs'. Do the same as at the beginning and check the suggestion. </p>
+        </div>
+    </div>
+
+    <div class="category">
+        <h2>Prompt-engineering</h2>
+        <div class="exercise">
+            <h3>#demo_AppropriateTest</h3>
+            <p><strong>File:</strong> Prompt_Example_1.cs</p>
+            <p><strong>Task:</strong> Generate appropriate tests for CourseController in University.API project.</p>
+        </div>
+
+        <div class="exercise">
+            <h3>#prompts_Fibonacci</h3>
+            <p><strong>Task:</strong> In Copilot Chat, ask the tool to generate a method computing N-th number in a sequence. Then try to specify whether you would like a function with recursion or not.</p>
+        </div>        
+
+        <div class="exercise">
+            <h3>#prompts_SearchAlgorithm</h3>
+            <p><strong>File:</strong> Prompt_Example_1.cs</p>
+            <p><strong>Task:</strong> Implement the element searching algorithm. First algorithm should work on arbitrary collections. Second one should take into account, that the collection is always sorted on the input.</p>
+        </div>
+
+        <div class="exercise">
+            <h3>#prompts_RateLimiting</h3>
+            <p><strong>Task:</strong> For the API created in #warmup_API_generation, create some sort of rate-limiting.</p>
+        </div>
+
+        <div class="exercise">
+            <h3>#agents_variables_find_sensitive_information</h3>
+            <p><strong>Task:</strong> Try to find all the sensitive information (passwords...) in the current codebase.</p>
+        </div>
+    </div>
+
+    <div class="category">
+        <h2>Slash Commands</h2>
+        <div class="exercise">
+            <h3>#slash_Explanation_Algorithm</h3>
+            <p><strong>File:</strong> Explain_Command_1.cs</p>
+            <p><strong>Task:</strong> Find out what is going on in here.</p>
+        </div>
+        <div class="exercise">
+            <h3>#slash_Explanation_SQL</h3>
+            <p><strong>File:</strong> Explain_Command_2.sql</p>
+            <p><strong>Task:</strong> Find out what exactly this SQL is used for.</p>
+        </div>
+        <div class="exercise">
+            <h3>#slash_Explanation_YAML</h3>
+            <p><strong>File:</strong> VotingApp.yaml</p>
+            <p><strong>Task:</strong> Find out what this YAML file is all about.</p>
+        </div>
+        <div class="exercise">
+            <h3>#slash_Explanation_YAML_2</h3>
+            <p><strong>File:</strong> Explain_Command_3.yaml</p>
+            <p><strong>Task:</strong> Find out what this YAML file is all about.</p>
+        </div>
+        <div class="exercise">
+            <h3>#slash_Fix_MergeSort</h3>
+            <p><strong>File:</strong> Fix_Command_1.cs</p>
+            <p><strong>Task:</strong> Find out why the MergeSort algorithm is not working as expected.</p>
+        </div>
+        <div class="exercise">
+            <h3>#slash_Fix_ColorFinder</h3>
+            <p><strong>File:</strong> Fix_Command_2.cs</p>
+            <p><strong>Task:</strong> Find out why the algorithms for finding a color do not work.</p>
+        </div>
+        <div class="exercise">
+            <h3>#slash_Optimize_SQL</h3>
+            <p><strong>File:</strong> Optimize_Command.cs</p>
+            <p><strong>Task:</strong> Try to optimize persisting to the Database.</p>
+        </div>
+    </div>
+
+    <div class="category">
+        <h2>Agents &#38; Variables</h2>
+        <div class="exercise">
+            <h3>#agents_variables_find_sorting_algorithms</h3>
+            <p><strong>Task:</strong> Find out, whether there is some sorting algorithm in this solution.</p>
+        </div>
+        <div class="exercise">
+            <h3>#agents_variables_class_file</h3>
+            <p><strong>File:</strong> CourseRepository.cs</p>
+            <p><strong>Task 1:</strong> Find out, what distinct database interaction methods are there in 'Queries1.cs' and 'Queries2.cs'.</p>
+            <p><strong>Task 2:</strong> Extract all those methods into the 'CourseRepository.cs' file.</p>
+        </div>
+    </div>
+
+    <div class="category">
+        <h2>Generation</h2>
+        <div class="exercise">
+            <h3>#generation_code_JWT_Tokens</h3>
+            <p><strong>Task:</strong> Create a library which contains class for JWT Token generation and for JWT Token verification.</p>
+        </div>
+
+        <div class="exercise">
+            <h3>#generation_project_aspnetcorewebapi</h3>
+            <p><strong>Task:</strong> Create new ASP.NET Core WebApi project with one Endpoint returning some fake data.</p>
+        </div>
+
+        <div class="exercise">
+            <h3>#generation_acceptanceCriteria_Login</h3>
+            <p><strong>File:</strong> LoginForm_ATs.txt</p>
+            <p><strong>Task:</strong> Imagine you are going to create the HTML form for user login. Generate Acceptance Criteria for that.</p>
+        </div>
+
+        <div class="exercise">
+            <h3>#generation_HTML_Login</h3>
+            <p><strong>File:</strong> Login.html</p>
+            <p><strong>Task:</strong> Generate HTML login form according to acceptance criteria listed in 'LoginForm_ATs.txt'.</p>
+        </div>
+
+        <div class="exercise">
+            <h3>#generation_ImageContentAnalysis</h3>
+            <p><strong>File:</strong> ImageContentAnalyzer.cs</p>
+            <p><strong>Task:</strong> Change the method in a way that it will analyze the image content using the Azure Content Safety AI service.</p>
+        </div>
+
+        <div class="exercise">
+            <h3>#generation_SQL_ColumnWithValueFinder</h3>
+            <p><strong>Task:</strong> Create SQL script, that will find you all the Table-Column pairs, where the Column contains specified value.</p>
+        </div>
+    </div>
+
+    <div class="category">
+        <h2>Refactoring</h2>
+        <div class="exercise">
+            <h3>#refactoring_CQRS</h3>
+            <p><strong>File:</strong> UserRepository.cs</p>
+            <p><strong>Task:</strong> Move 'Command' methods to 'UserCommandRepository.cs' file, and 'Query' methods to 'UserQueryRepository.cs' file.</p>
+        </div>
+        <div class="exercise">
+            <h3>#refactoring_SQLtoNOSQL</h3>
+            <p><strong>File:</strong> Commands.cs</p>
+            <p><strong>Task:</strong> Refactor all methods so that instead of SQL, they communicate with NoSQL - Azure Cosmos DB, partition key being 'DepartmentId'.</p>
+        </div>
+
+        <div class="exercise">
+            <h3>#refactoring_StopWatch</h3>
+            <p><strong>File:</strong> SqlExecutor.cs</p>
+            <p><strong>Task:</strong> Add Stopwatch to every method. Then remove it.</p>
+        </div>
+
+        <div class="exercise">
+            <h3>#refactoring_getQueryWithStandardSql</h3>
+            <p><strong>File: </strong> TodoTaskController.cs</p>
+            <p><strong>Task:</strong> Refactor the 'GetTaskById' method so that it does not use Entity Framework, but classic SQL query approach.</p>
+        </div>
+
+        <div class="exercise">
+            <h3>#generation_code_addingNewPropertyToTask</h3>
+            <p><strong>Task:</strong> There is the TaskManager.API project. It is used to manage Tasks for every user. Product Owner has requested to track the 'IsCompleted' for every Task. Change the code accordingly.</p>
+        </div>
+
+        <div class="exercise">
+            <h3>#generation_UML_Diagram</h3>
+            <p><strong>File: </strong> TodoTaskController.cs</p>
+            <p><strong>Task:</strong> Create Interaction diagram for method 'CreateTask'.</p>
+        </div>
+
+        <div class="exercise">
+            <h3>#refactoring_finding_duplicate_code</h3>
+            <p><strong>File: </strong> SqlCommandsExecutor.cs</p>
+            <p><strong>Task:</strong> Refactor the code in a way that common code is extracted and reused in both methods.</p>
+        </div>
+
+        <div class="exercise">
+            <h3>#refactoring_validation_exception_replacement</h3>
+            <p><strong>File: </strong> TodoTaskController.cs</p>
+            <p><strong>Task:</strong> Let's try to refactor the 'CreateTask' method to not use Try-Catch.</p>
+        </div>
+
+        <div class="exercise">
+            <h3>#refactoring_code_language_change</h3>
+            <p><strong>File: </strong> SqlExecutor.cs</p>
+            <p><strong>Task:</strong> Get the similar code 'translated' into Python.</p>
+            <p class="solution"><strong>Solution:</strong> #file:'SqlExecutor.cs' I would like to take all methods and have them translated to Python.</p>
+        </div>
+
+        <div class="exercise">
+            <h3>#refactoring_rich_domain_modelling</h3>
+            <p><strong>File: </strong> OrderManagementClasses.cs</p>
+            <p><strong>Task:</strong> Let's try to refactor this into the Rich Domain Model.</p>
+        </div>
+
+        <div class="exercise">
+            <h3>#refactoring_solid_s</h3>
+            <p><strong>File: </strong> OrderProcessor.cs</p>
+            <p><strong>Task:</strong> Let's try to refactor this class so that it adheres to [S]OLID.</p>
+        </div>
+
+        <div class="exercise">
+            <h3>#refactoring_solid_d</h3>
+            <p><strong>File: </strong> UserController.cs</p>
+            <p><strong>Task:</strong> Let's try to refactor this class so that it adheres to SOLI[D].</p>
+        </div>
+
+        <div class="exercise">
+            <h3>#refactoring_rawSql_EntityFramework</h3>
+            <p><strong>File: </strong> UserRepository.cs</p>
+            <p><strong>Task:</strong> Now the raw SQL is used. Change it to EntityFrameworkCore.</p>
+        </div>
+    </div>
+
+    <div class="category">
+        <h2>Debugging</h2>
+        <div class="exercise">
+            <h3>#demo_debugging_PerformanceAnalysis</h3>
+            <p><strong>File:</strong> Demo-Executable/Program.cs</p>
+        </div>
+
+        <div class="exercise">
+            <h3>#demo_debugging_ThrownExceptionAnalysis</h3>
+            <p><strong>File:</strong> Demo-Executable/Program.cs, Demo-Executable/CourseSaver.cs</p>
+        </div>
+    </div>
+
+    <div class="category">
+        <h2>Testing</h2>
+        <div class="exercise">
+            <h3>#testing_FailingTestAnalysis</h3>
+            <p><strong>File:</strong> ElementSearchFailingTest.cs</p>
+        </div>
+
+        <div class="exercise">
+            <h3>#testing_Mathematics_TestsGeneration</h3>
+            <p><strong>File:</strong> MathematicsTest.cs</p>
+            <p><strong>Task:</strong> Generate some tests for class in file 'Mathematics.cs'.</p>
+        </div>
+
+        <div class="exercise">
+            <h3>#testing_Mathematics_TestDataGeneration</h3>
+            <p><strong>File:</strong> MathematicsTest.cs</p>
+            <p><strong>Task:</strong> Generate test data for tests generatede in previous exercise.</p>
+        </div>
+
+        <div class="exercise">
+            <h3>#testing_WebApiController_Tests</h3>
+            <p><strong>File:</strong> UserController.cs</p>
+            <p><strong>Task:</strong> Create tests for this Controller.</p>
+        </div>
+
+        <div class="exercise">
+            <h3>#testing_WebApiController_StubGeneration</h3>
+            <p><strong>File:</strong> UserController.cs</p>
+            <p><strong>Task:</strong> Generate InMemory stub implementations for out-of-process dependencies</p>
+        </div>
+
+        <div class="exercise">
+            <h3>#testing_WebApiController_BusinessLogicExplanation</h3>
+            <p><strong>File:</strong> TodoTaskController.cs</p>
+            <p><strong>Task:</strong> Find out what are the rules for a task to be considered as valid.</p>
+        </div>
+
+        <div class="exercise">
+            <h3>#testing_WebApiController_TestCasesSuggestion</h3>
+            <p><strong>File:</strong> TodoTaskController.cs</p>
+            <p><strong>Task:</strong> Find out what are the appropriate test cases to cover the functionality of the CreateTask method.</p>
+        </div>
+
+        <div class="exercise">
+            <h3>#testing_tdd_account_implementation</h3>
+            <p><strong>File:</strong> Account.cs</p>
+            <p><strong>Task:</strong> Adjust the implementation of the Account class to make tests in AccountTest.cs pass.</p>
+        </div>
+    </div>
+
+    <div class="category">
+        <h2>General</h2>
+        <div class="exercise">
+            <h3>#general_FixOfConsoleError</h3>
+            <p><strong>File:</strong> Help_1.cs</p>
+            <p><strong>Task:</strong> Find out what you should add to University API to fix the problem.</p>
+        </div>
+
+        <div class="exercise">
+            <h3>#general_UML</h3>
+            <p><strong>File:</strong> CourseController.cs</p>
+            <p><strong>Task:</strong> Generate UML sequence diagram from method GetAll().</p>
+        </div>
+    </div>
+
+    <div class="category">
+        <h2>Random</h2>
+        <div class="exercise">
+            <h3>#codereview_html_website</h3>
+            <p><strong>File:</strong> Exercise-StaticWebsite/index.html</p>
+            <p><strong>Task:</strong> Make a code review of the website (index.html, and some CSS files).</p>
+        </div>
+
+        <div class="exercise">
+            <h3>#debugging_loganalysis</h3>
+            <p><strong>File:</strong> Extracted_logs.txt</p>
+            <p><strong>Task:</strong> For every injection find out how long did it run.</p>
+        </div>
+    </div>
+
+    <div class="category">
+        <h2>Security</h2>
+        <div class="exercise">
+            <h3>#security_Owasp_Oversharing</h3>
+            <p><strong>File:</strong> SpeakerController.cs</p>
+            <p><strong>Task:</strong> Use SessionManagerDbContext to get all Speakers and return them in the GetAllSpeakers method.</p>
+        </div>
+
+        <div class="exercise">
+            <h3>#security_Owasp_MassAssignment</h3>
+            <p><strong>File:</strong> SpeakerController.cs</p>
+            <p><strong>Task:</strong> Implement the 'UpdateSpeaker' and 'UpdateSpeakerInternal' methods.</p>
+            <p><strong>Possible prompts #1: </strong> I would like to map all properties from jsonObject to Speaker.</p>
+            <p><strong>Possible prompts #2: </strong> I would like to map jsonObject into speaker. The JsonObject is coming from the Frontend in #file:'UpdateSpeaker.html'</p>
+        </div>
+
+        <div class="exercise">
+            <h3>#security_Owasp_SqlInjection</h3>
+            <p><strong>File:</strong> UserPersistance.cs</p>
+            <p><strong>Task:</strong> Generate method for saving Users to the database.</p>
+        </div>
+    </div>
+
+    <div class="category">
+        <h2>GitHub Copilot in CLI</h2>
+        <div class="exercise">
+            <h3>#copilot_cli_azure_CreateResourceGroup</h3>
+            <p><strong>Task:</strong> Create Resource group in Azure using Powershell with the help of GitHub Copilot in CLI.</p>
+        </div>
+
+        <div class="exercise">
+            <h3>#copilot_cli_azure_GetCosmosDbAccountsWithResourceGroups</h3>
+            <p><strong>Task:</strong> Find out all CosmosDB accounts in Azure subscription in format 'ResourceGroup - CosmosDBAccount'.</p>
+        </div>
+
+        <div class="exercise">
+            <h3>#copilot_cli_command_process_file</h3>
+            <p><strong>Task:</strong> Find out what command to use to see which process has the access to some file.</p>
+        </div>
+    </div>
+</div>
+</body>
+</html>

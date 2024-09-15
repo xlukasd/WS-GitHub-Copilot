@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Update Speaker</title>
+</head>
+<body>
+    <form>
+        <label for="bio">Bio:</label>
+        <textarea id="bio" name="bio" maxlength="250"></textarea>
+        <button type="submit" onclick="submitForm()">Submit</button>
+    </form>
+
+    <script>
+        function submitForm() {
+            var bio = document.getElementById("bio").value;
+            var speakerId = '0507b451-e99a-40e5-b9a4-3bc11fb42542';
+
+            var jsonObject = {
+                "bio": bio
+            };
+
+            fetch(`https://localhost:7102/Speaker/?speakerId=${speakerId}`, {
+                method: 'PATCH',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(jsonObject)
+            })
+            .then(response => {
+                if (response.ok) {
+                    alert("Speaker updated successfully");
+                } else {
+                    console.log("Failed to update speaker");
+                }
+            })
+            .catch(error => {
+                console.error('Error:', error);
+            });
+        }
+
+        function generateRandomId() {
+            return Math.floor(Math.random() * 1000);
+        }
+    </script>
+</body>
+</html>

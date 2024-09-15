@@ -1,0 +1,58 @@
+1. INJECTION: 616.smp
+19:10:08 Saving injection 'MPA' with status Running on MySuperUltraInstrument: chrom://instrument-machine/InstrumentDatabase/MySuperUltraInstrument/174/olympic-games-athletes.seq/616.smp
+19:11:17 Saving injection 'MPA' with status Running on MySuperUltraInstrument: chrom://instrument-machine/InstrumentDatabase/MySuperUltraInstrument/174/olympic-games-athletes.seq/616.smp
+19:31:22 Saving injection 'MPA' with status Finished on MySuperUltraInstrument: chrom://instrument-machine/InstrumentDatabase/MySuperUltraInstrument/174/olympic-games-athletes.seq/616.smp
+
+2. INJECTION: 803.smp
+19:31:22 Saving injection 'MPA' as running on MySuperUltraInstrument 
+19:32:45 Saving injection 'MPA' with status Running on MySuperUltraInstrument: chrom://instrument-machine/InstrumentDatabase/MySuperUltraInstrument/174/olympic-games-athletes.seq/803.smp
+19:52:49 Saving injection 'MPA' with status Finished on MySuperUltraInstrument: chrom://instrument-machine/InstrumentDatabase/MySuperUltraInstrument/174/olympic-games-athletes.seq/803.smp
+
+3. INJECTION: 721.smp
+19:52:49 Saving injection '0.9 g/L methylene blue' as running on MySuperUltraInstrument: chrom://instrument-machine/InstrumentDatabase/MySuperUltraInstrument/174/olympic-games-athletes.seq/721.smp
+19:54:17 Saving injection '0.9 g/L methylene blue' with status Running on MySuperUltraInstrument: chrom://instrument-machine/InstrumentDatabase/MySuperUltraInstrument/174/olympic-games-athletes.seq/721.smp
+20:14:22 Saving injection '0.9 g/L methylene blue' with status Finished on MySuperUltraInstrument: chrom://instrument-machine/InstrumentDatabase/MySuperUltraInstrument/174/olympic-games-athletes.seq/721.smp
+
+4. INJECTION: 991.smp
+20:14:22 Saving injection '0.9 g/L methylene blue' as running on MySuperUltraInstrument: chrom://instrument-machine/InstrumentDatabase/MySuperUltraInstrument/174/olympic-games-athletes.seq/991.smp
+20:15:46 Saving injection '0.9 g/L methylene blue' with status Running on MySuperUltraInstrument: chrom://instrument-machine/InstrumentDatabase/MySuperUltraInstrument/174/olympic-games-athletes.seq/991.smp
+20:35:50 Saving injection '0.9 g/L methylene blue' with status Finished on MySuperUltraInstrument: chrom://instrument-machine/InstrumentDatabase/MySuperUltraInstrument/174/olympic-games-athletes.seq/991.smp
+
+5. INJECTION: 107.smp
+20:35:50 Saving injection 'MPA' as running on MySuperUltraInstrument: chrom://instrument-machine/InstrumentDatabase/MySuperUltraInstrument/174/olympic-games-athletes.seq/107.smp
+20:37:33 Saving injection 'MPA' with status Running on MySuperUltraInstrument: chrom://instrument-machine/InstrumentDatabase/MySuperUltraInstrument/174/olympic-games-athletes.seq/107.smp
+20:57:38 Saving injection 'MPA' with status Finished on MySuperUltraInstrument: chrom://instrument-machine/InstrumentDatabase/MySuperUltraInstrument/174/olympic-games-athletes.seq/107.smp
+
+6. INJECTION: 700.smp
+21:00:42 Saving injection 'MPA' with status Running on MySuperUltraInstrument: chrom://instrument-machine/InstrumentDatabase/MySuperUltraInstrument/174/olympic-games-athletes.seq/700.smp
+21:02:27 Saving injection 'MPA' with status Running on MySuperUltraInstrument: chrom://instrument-machine/InstrumentDatabase/MySuperUltraInstrument/174/olympic-games-athletes.seq/700.smp
+21:22:30 Saving injection 'MPA' with status Finished on MySuperUltraInstrument: chrom://instrument-machine/InstrumentDatabase/MySuperUltraInstrument/174/olympic-games-athletes.seq/700.smp
+
+7. INJECTION: 111.smp
+21:32:08 Saving injection 'MPA' with status Running on MySuperUltraInstrument: chrom://instrument-machine/InstrumentDatabase/MySuperUltraInstrument/174/olympic-games-athletes.seq/111.smp
+21:33:37 Saving injection 'MPA' with status Running on MySuperUltraInstrument: chrom://instrument-machine/InstrumentDatabase/MySuperUltraInstrument/174/olympic-games-athletes.seq/111.smp
+21:53:41 Saving injection 'MPA' with status Finished on MySuperUltraInstrument: chrom://instrument-machine/InstrumentDatabase/MySuperUltraInstrument/174/olympic-games-athletes.seq/111.smp
+
+8. INJECTION: 336.smp
+21:53:45 Saving injection '1 mg/L pooled MPNA derivates 100-1500Th' with status Running on MySuperUltraInstrument: chrom://instrument-machine/InstrumentDatabase/MySuperUltraInstrument/174/olympic-games-athletes.seq/336.smp
+21:54:50 Saving injection '1 mg/L pooled MPNA derivates 100-1500Th' with status Running on MySuperUltraInstrument: chrom://instrument-machine/InstrumentDatabase/MySuperUltraInstrument/174/olympic-games-athletes.seq/336.smp
+22:14:55 Saving injection '1 mg/L pooled MPNA derivates 100-1500Th' with status Finished on MySuperUltraInstrument: chrom://instrument-machine/InstrumentDatabase/MySuperUltraInstrument/174/olympic-games-athletes.seq/336.smp
+
+9. INJECTION: 990.smp
+22:14:57 Saving injection '1 mg/L pooled MPNA derivates 130-180Th' with status Running on MySuperUltraInstrument: chrom://instrument-machine/InstrumentDatabase/MySuperUltraInstrument/174/olympic-games-athletes.seq/990.smp
+22:16:01 Saving injection '1 mg/L pooled MPNA derivates 130-180Th' with status Running on MySuperUltraInstrument: chrom://instrument-machine/InstrumentDatabase/MySuperUltraInstrument/174/olympic-games-athletes.seq/990.smp
+22:36:05 Saving injection '1 mg/L pooled MPNA derivates 130-180Th' with status Finished on MySuperUltraInstrument: chrom://instrument-machine/InstrumentDatabase/MySuperUltraInstrument/174/olympic-games-athletes.seq/990.smp
+
+10. INJECTION: 292.smp
+22:36:05 Saving injection 'MPA' as running on MySuperUltraInstrument: chrom://instrument-machine/InstrumentDatabase/MySuperUltraInstrument/174/olympic-games-athletes.seq/292.smp
+22:37:11 Saving injection 'MPA' with status Running on MySuperUltraInstrument: chrom://instrument-machine/InstrumentDatabase/MySuperUltraInstrument/174/olympic-games-athletes.seq/292.smp
+22:57:16 Saving injection 'MPA' with status Finished on MySuperUltraInstrument: chrom://instrument-machine/InstrumentDatabase/MySuperUltraInstrument/174/olympic-games-athletes.seq/292.smp
+
+11. INJECTION: 817.smp
+22:57:16 Saving injection 'MPA' as running on MySuperUltraInstrument: chrom://instrument-machine/InstrumentDatabase/MySuperUltraInstrument/174/olympic-games-athletes.seq/817.smp
+22:58:21 Saving injection 'MPA' with status Running on MySuperUltraInstrument: chrom://instrument-machine/InstrumentDatabase/MySuperUltraInstrument/174/olympic-games-athletes.seq/817.smp
+23:18:26 Saving injection 'MPA' with status Finished on MySuperUltraInstrument: chrom://instrument-machine/InstrumentDatabase/MySuperUltraInstrument/174/olympic-games-athletes.seq/817.smp
+
+12. INJECTION: 939.smp
+23:18:26 Saving injection 'MPA' as running on MySuperUltraInstrument: chrom://instrument-machine/InstrumentDatabase/MySuperUltraInstrument/174/olympic-games-athletes.seq/939.smp
+23:29:30 Saving injection 'MPA' with status Finished on MySuperUltraInstrument: chrom://instrument-machine/InstrumentDatabase/MySuperUltraInstrument/174/olympic-games-athletes.seq/939.smp
