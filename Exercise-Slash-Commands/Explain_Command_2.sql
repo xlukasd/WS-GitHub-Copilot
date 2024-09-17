@@ -1,6 +1,5 @@
 ﻿DECLARE @SearchStrColumnValue nvarchar(255), @IncludeFullRowInResults bit, @IncludeFullRowInResultsMaxRows int
 SET @SearchStrColumnValue = '%your_search_text%'
-SET @IncludeFullRowInResults = 1
 SET @IncludeFullRowInResultsMaxRows = 10
 
 IF OBJECT_ID('tempdb..#Results') IS NOT NULL DROP TABLE #Results
@@ -44,16 +43,7 @@ BEGIN
                     WHEN 'timestamp' THEN 'master.dbo.fn_varbintohexstr('+ @ColumnName + ')'
                     ELSE @ColumnName END + ' LIKE ' + @QuotedSearchStrColumnValue
             INSERT INTO #Results
-            EXEC(@sql)
-            IF @@ROWCOUNT > 0 IF @IncludeFullRowInResults = 1 
-            BEGIN
-                SET @sql = 'SELECT TOP ' + CAST(@IncludeFullRowInResultsMaxRows AS VARCHAR(3)) + ' ''' + @TableName + ''' AS [TableFound],''' + @ColumnName + ''' AS [ColumnFound],''FullRow>'' AS [FullRow>],*' +
-                    ' FROM ' + @TableName + ' (NOLOCK) ' +
-                    ' WHERE ' + CASE @ColumnType WHEN 'xml' THEN 'CAST(' + @ColumnName + ' AS nvarchar(MAX))' 
-                    WHEN 'timestamp' THEN 'master.dbo.fn_varbintohexstr('+ @ColumnName + ')'
-                    ELSE @ColumnName END + ' LIKE ' + @QuotedSearchStrColumnValue
-                EXEC(@sql)
-            END
+            EXEC(@sql)            
             DELETE FROM @ColumnNameTable WHERE COLUMN_NAME = @ColumnName
         END 
     END
