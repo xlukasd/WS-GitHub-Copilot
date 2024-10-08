@@ -12,15 +12,5 @@
             Owner = owner;
             Balance = balance;
         }
-
-        public void Deposit(decimal amount)
-        {
-            Balance += amount;
-        }
-
-        public void Withdraw(decimal amount)
-        {
-            Balance -= amount;
-        }
     }
 }

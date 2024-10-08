@@ -19,7 +19,7 @@ namespace Exercise_Testing
         [TestCase(6, new int[] { 1, 2, 3, 4, 5 }, false)]
         [TestCase(3, new int[] { 1, 2, 3, 4, 5 }, true)]
         [TestCase(0, new int[] { 1, 2, 3, 4, 5 }, false)]
-        [TestCase(5, new int[] { 1, 2, 3, 4, 5 }, false)]
+        [TestCase(5, new int[] { 1, 2, 3, 4, 5 }, true)]
         public void ElementSearchTest(int target, int[] array, bool expected)
         {
             bool result = _testee.ContainsElement(array, target);

@@ -9,6 +9,6 @@ namespace TaskManager.API
         {
         }
 
-        public DbSet<TodoTask> Tasks { get; set; }
+        public DbSet<TodoTask> TodoTask { get; set; }
     }
 }

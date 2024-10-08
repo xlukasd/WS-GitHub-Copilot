@@ -44,7 +44,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrderManagement.Domain", "O
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UserManagement.API", "UserManagement.API\UserManagement.API.csproj", "{15EA0A73-648E-4649-AF47-A414E0E292D2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bank.Domain", "Bank.Domain\Bank.Domain.csproj", "{8B9926DE-2581-435B-A976-3CBD1C9C85E1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bank.Domain", "Bank.Domain\Bank.Domain.csproj", "{8B9926DE-2581-435B-A976-3CBD1C9C85E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quotes.API", "Quotes.API\Quotes.API.csproj", "{8192D4BE-F032-48C8-B2F2-09C9BB8873A9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -116,6 +118,10 @@ Global
 		{8B9926DE-2581-435B-A976-3CBD1C9C85E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8B9926DE-2581-435B-A976-3CBD1C9C85E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8B9926DE-2581-435B-A976-3CBD1C9C85E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8192D4BE-F032-48C8-B2F2-09C9BB8873A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8192D4BE-F032-48C8-B2F2-09C9BB8873A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8192D4BE-F032-48C8-B2F2-09C9BB8873A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8192D4BE-F032-48C8-B2F2-09C9BB8873A9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -128,6 +134,7 @@ Global
 		{2F7A4A4D-F093-4A1F-9231-F15054E68436} = {0669F312-E183-478C-B022-5178320F82C3}
 		{15EA0A73-648E-4649-AF47-A414E0E292D2} = {0669F312-E183-478C-B022-5178320F82C3}
 		{8B9926DE-2581-435B-A976-3CBD1C9C85E1} = {0669F312-E183-478C-B022-5178320F82C3}
+		{8192D4BE-F032-48C8-B2F2-09C9BB8873A9} = {0669F312-E183-478C-B022-5178320F82C3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B48C6406-1FCB-4626-9992-190CDA083926}
